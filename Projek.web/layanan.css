@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+}
+
+img {
+    display: block;
+    vertical-align: middle;
+}
+
+h1, h2, h3 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.grid-col-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
